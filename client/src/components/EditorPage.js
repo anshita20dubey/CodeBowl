@@ -141,9 +141,9 @@ function EditorPage() {
             src="/images/codecast.png"
             alt="Logo"
             className="img-fluid mx-auto"
-            style={{ maxWidth: "150px", marginTop: "-43px" }}
+            style={{ maxWidth: "150px", marginTop: "15px" }}
           />
-          <hr style={{ marginTop: "-3rem" }} />
+          <hr style={{ marginTop: "1rem" }} />
 
           {/* Client list container */}
           <div className="d-flex flex-column flex-grow-1 overflow-auto">
