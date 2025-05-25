@@ -27,6 +27,7 @@ function Editor({ socketRef, roomId, onCodeChange, language }) {
     cpp: { name: "text/x-c++src" },
     c: { name: "text/x-csrc" },
     csharp: { name: "text/x-csharp" },
+    java: { name: "text/x-java" }, // ✅ Added Java
     nodejs: { name: "javascript", json: true },
     ruby: { name: "ruby" },
     go: { name: "go" },
@@ -39,6 +40,7 @@ function Editor({ socketRef, roomId, onCodeChange, language }) {
     rust: { name: "rust" },
     r: { name: "r" },
   };
+
 
   useEffect(() => {
     const init = async () => {
